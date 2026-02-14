@@ -1,0 +1,21 @@
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix ns6: <http://rdaregistry.info/Elements/m/#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdarelationships: <http://rdvocab.info/RDARelationshipsWEMI/> .
+
+<http://data.bnf.fr/ark:/12148/cb40266635t#about> ns6:P30139 <http://data.bnf.fr/ark:/12148/cb40266635t#Expression> ;
+    rdarelationships:expressionManifested <http://data.bnf.fr/ark:/12148/cb40266635t#Expression> .
+
+<http://data.bnf.fr/ark:/12148/cb40266635t#Expression> a <http://rdaregistry.info/Elements/c/#C10006>,
+        <http://rdvocab.info/uri/schema/FRBRentitiesRDA/Expression> ;
+    bnfroles:r530 <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    marcrel:pht <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    dcterms:contributor <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-2/fre> ;
+    dcterms:subject <http://data.bnf.fr/ark:/12148/cb16689087r> ;
+    dcterms:type dcmitype:StillImage ;
+    owl:sameAs <http://data.bnf.fr/ark:/12148/cb40266635t#frbr:Expression> .
+

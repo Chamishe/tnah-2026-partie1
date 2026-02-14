@@ -1,0 +1,32 @@
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns4: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix ns5: <http://id.loc.gov/vocabulary/relators/> .
+@prefix ns7: <http://rdaregistry.info/Elements/m/#> .
+@prefix ns8: <http://rdvocab.info/RDARelationshipsWEMI/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://data.bnf.fr/ark:/12148/cb40266713s> a skos:Concept ;
+    dcterms:created "1990-10-19" ;
+    dcterms:modified "2013-06-10" ;
+    foaf:focus <http://data.bnf.fr/ark:/12148/cb40266713s#about> .
+
+<http://data.bnf.fr/ark:/12148/cb40266713s#about> ns7:P30139 <http://data.bnf.fr/ark:/12148/cb40266713s#Expression> ;
+    ns8:expressionManifested <http://data.bnf.fr/ark:/12148/cb40266713s#Expression> .
+
+<http://data.bnf.fr/ark:/12148/cb40266713s#Expression> a <http://rdaregistry.info/Elements/c/#C10006>,
+        <http://rdvocab.info/uri/schema/FRBRentitiesRDA/Expression> ;
+    ns4:r4030 <http://data.bnf.fr/ark:/12148/cb12541292d#about> ;
+    ns4:r530 <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    ns5:col <http://data.bnf.fr/ark:/12148/cb12541292d#about> ;
+    ns5:pht <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    dcterms:contributor <http://data.bnf.fr/ark:/12148/cb11889340k#about>,
+        <http://data.bnf.fr/ark:/12148/cb12541292d#about> ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-2/fre> ;
+    dcterms:subject <http://data.bnf.fr/ark:/12148/cb11952843v>,
+        <http://data.bnf.fr/ark:/12148/cb119540465> ;
+    dcterms:type dcmitype:StillImage ;
+    owl:sameAs <http://data.bnf.fr/ark:/12148/cb40266713s#frbr:Expression> .
+
